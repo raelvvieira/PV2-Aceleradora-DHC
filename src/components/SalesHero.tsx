@@ -21,32 +21,18 @@ export function SalesHero({
 
         <div className="max-w-4xl mx-auto relative z-10">
           
-          {/* Centered Brand Logos side by side */}
+          {/* Centered Brand Logo */}
           <motion.div 
             initial={{ opacity: 0, y: -15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-6 md:gap-8 mb-10 select-none"
+            className="flex items-center justify-center mb-10 select-none"
           >
             <img 
-              src="/logo-dhc-landscape.png" 
-              alt="Logo Aceleradora DHC Oficial" 
+              src="https://i.ibb.co/3yDc9kS8/logo.png" 
+              alt="Logo" 
               referrerPolicy="no-referrer"
-              className="h-10 sm:h-12 md:h-14 w-auto object-contain brightness-110"
-              onError={(e) => {
-                e.currentTarget.src = "https://i.ibb.co/R424CQrC/Design-sem-nome.png";
-              }}
-            />
-            {/* Elegant Divider between logos */}
-            <div className="hidden sm:block w-[1.5px] h-8 bg-zinc-800"></div>
-            <img 
-              src="/logo-dhc-square.png" 
-              alt="Logo Deni Haut Cursos" 
-              referrerPolicy="no-referrer"
-              className="h-10 sm:h-12 md:h-14 w-auto object-contain"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
+              className="h-[49px] sm:h-[61px] md:h-[73px] w-auto object-contain"
             />
           </motion.div>
 
