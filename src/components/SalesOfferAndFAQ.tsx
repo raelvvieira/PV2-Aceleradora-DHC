@@ -1,10 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ReviewStars } from './ReviewStars';
 import { Check, ShieldCheck, Mail, Phone, Lock, CreditCard, Sparkles, ChevronDown, ChevronUp, Star, Award, Sparkle, AlertCircle, HelpCircle, Gift } from 'lucide-react';
 
 export function SalesOfferAndFAQ() {
   const [activeFaqIdx, setActiveFaqIdx] = useState<number | null>(null);
+  const [checkoutUrl, setCheckoutUrl] = useState("https://pay.kiwify.com.br/saaL1nC");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const utmParamQueryString = new URLSearchParams(window.location.search);
+      if (utmParamQueryString.toString()) {
+        const urlObj = new URL(checkoutUrl);
+        utmParamQueryString.forEach((value, key) => {
+          urlObj.searchParams.set(key, value);
+        });
+        setCheckoutUrl(urlObj.toString());
+      }
+    }
+  }, []);
 
   const paraQuemE = [
     'Não tem tempo de criar post do zero todo dia.',
@@ -265,7 +279,7 @@ export function SalesOfferAndFAQ() {
                   {/* Big GREEN CTA with glowing animation (MOVED UP AND UPGRADED TO POLISHED GRADIENT) */}
                   <div className="mt-4 mb-5 space-y-3">
                     <a
-                      href="https://pay.kiwify.com.br/saaL1nC"
+                      href={checkoutUrl}
                       className="w-full py-4.5 rounded-xl bg-gradient-to-r from-[#22C55E] to-[#12A044] hover:from-[#1EAF50] hover:to-[#0F8A38] hover:shadow-[0_12px_28px_rgba(34,197,94,0.35)] hover:scale-101 text-white font-black text-xs sm:text-sm uppercase tracking-wider transition-all cursor-pointer shadow-md select-none block text-center"
                     >
                       GARANTIR ACESSO POR R$97/MES
