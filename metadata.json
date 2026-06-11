@@ -1,0 +1,8 @@
+{
+  "name": "PV 2 - Plataforma Deni Haut",
+  "description": "Página de vendas Nova, da Plataforma DHC.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

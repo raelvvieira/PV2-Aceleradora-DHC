@@ -1,0 +1,17 @@
+COMO SUBSTITUIR OS LOGOTIPOS DA DHC NO SEU APLICATIVO:
+
+Você pode carregar suas imagens de logotipo originais diretamente na pasta "public" do aplicativo. Siga os passos abaixo:
+
+1. No menu lateral do AI Studio (no painel esquerdo da tela onde fica a estrutura de pastas):
+   - Localize a pasta chamada "public" (se não encontrar, recarregue ou atualize a lista).
+   - Você verá os arquivos:
+     - logo-dhc-landscape.png (a imagem retangular com o texto "ACELERADOR DE MARKETING...")
+     - logo-dhc-square.png (a imagem quadrada/ícone com o símbolo de estrela de 4 pontas)
+
+2. Para substituir:
+   - Clique com o botão direito sobre eles e escolha a opção de deletar/substituir, ou simplesmente arraste e solte (drag and drop) os seus arquivos de imagem locais diretamente para cima da pasta "public" do visualizador de arquivos do AI Studio.
+   - Certifique-se de nomear as suas imagens locais EXATAMENTE como:
+     - logo-dhc-landscape.png
+     - logo-dhc-square.png
+
+O aplicativo atualizará instantaneamente em todos os locais (Menu lateral, tela de login, rodapés e cabeçalhos)!
