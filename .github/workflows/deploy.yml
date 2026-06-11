@@ -28,8 +28,8 @@ jobs:
       - name: Deploy via FTP para Hostinger
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: 45.152.44.99
-          username: u723517805.aceleradoradhc.com.br
+          server: ftp.aceleradoradhc.com.br
+          username: u723517805.AutoDeploy
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: /public_html/
