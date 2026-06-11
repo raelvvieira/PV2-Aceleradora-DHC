@@ -14,11 +14,16 @@ export function SalesStatsSection() {
         
         {/* Main big bold single headline */}
         <div className="max-w-4xl mx-auto text-center px-2">
-          <h2 className="text-3xl sm:text-4xl md:text-[42px] font-sans font-black tracking-tight text-white leading-tight">
-            <span className="bg-gradient-to-r from-[#FF1E40] via-[#D304D1] to-[#7B2FBE] bg-clip-text text-transparent px-1 inline-block font-black">
-              +11 milhões de visualizações geradas.
+          <h2 className="text-3xl sm:text-4xl md:text-[44px] font-sans font-black tracking-tight text-white leading-tight">
+            <span className="bg-gradient-to-r from-[#FF1E40] via-[#D304D1] to-[#7B2FBE] bg-clip-text text-transparent px-1 block font-black">
+              +11 milhões
+            </span>
+            <span className="bg-gradient-to-r from-[#FF1E40] via-[#D304D1] to-[#7B2FBE] bg-clip-text text-transparent px-1 block font-black">
+              de visualizações geradas.
             </span>{' '}
-            93% de não seguidores. Essas são as postagens que vão estar no seu perfil toda semana.
+            <span className="text-base sm:text-lg md:text-xl font-bold text-zinc-300 block mt-4 max-w-2xl mx-auto leading-relaxed">
+              93% de não seguidores. Essas são as postagens que vão estar no seu perfil toda semana.
+            </span>
           </h2>
         </div>
 
