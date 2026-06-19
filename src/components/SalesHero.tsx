@@ -68,8 +68,8 @@ export function SalesHero({
             className="my-8 flex justify-center"
           >
             <img 
-              src="https://i.ibb.co/PzZJPyT1/Gemini-Generated-Image-d24gvnd24gvnd24g.png" 
-              alt="Gemini Generated Image d24gvnd24gvnd24g" 
+              src="https://i.ibb.co/JWJN0VpY/Design-sem-nome-5.png" 
+              alt="Design sem nome (5)" 
               referrerPolicy="no-referrer"
               className="max-w-full md:max-w-2xl h-auto rounded-3xl shadow-2xl border border-zinc-800"
             />
