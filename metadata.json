@@ -1,6 +1,6 @@
 {
-  "name": "PV 2 - Plataforma Deni Haut",
-  "description": "Página de vendas Nova, da Plataforma DHC.",
+  "name": "Aceleradora DHC — Seu Instagram com Novas postagens toda semana",
+  "description": "Copie conteúdos altamente virais para estética, 100% testados, focados em atração, engajamento e vendas no Instagram.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
